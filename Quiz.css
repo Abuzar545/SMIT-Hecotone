@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+nav.navbar{
+    /* background-color: #1d3557; */
+    background-color: blue;
+}
+footer{
+    /* background-color: #1d3557 !important;  */
+    background-color: blue;
+} 
+button.btn-primary{
+    /* background-color: #1d3557   */
+    background-color: blue;
+}
+#homePage,#logoutButton{
+    display: none;
+}
